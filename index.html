@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/check-list.png">
+</head>
+<body>
+    <div class="container">
+        <header>To-Do List</header>
+        <div class="new-task">
+            <input type="text" class="task-input" placeholder="Add a new task...">
+            <button class="add-button">Add</button>
+        </div>
+        <div class="task-list">
+            <!-- Tasks will be added here by JavaScript -->
+            <div class="empty-list">Your to-do list is empty!</div>
+        </div>
+        <div class="stats">
+            <span class="task-count">0 tasks left</span>
+            <button class="clear-completed">Clear completed</button>
+        </div>
+        <div class="credits">
+            <p>Project created by:</p>
+            <p class="names">Dasari Muralidhar</p>
+            <p>© 2025 | Final Project</p>
+            <button class="about-toggle">About Us</button>
+        </div>
+        <div class="about-us hidden">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="https://th.bing.com/th/id/OIP.cW0wzJYojHH-xxW35Wj7dQHaHa?w=187&h=187&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Team Member 1">
+                    <h3>Dasari Muralidhar</h3>
+                    <p>Frontend Developer</p>
+                    <p>Passionate about creating intuitive user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
