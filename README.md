@@ -24,7 +24,7 @@ This **To-Do List Web App** is a front-end development project built as part of 
 | 🗓️ **Year** | 2024 |
 | 👤 **Developer** | Dasari Muralidhar |
 | 🏫 **Institution** | RV Institute of Technology |
-| 🔗 **Live Demo** | *(Add your GitHub Pages link here)* |
+| 🔗 **Live Demo** | *(https://github.com/muralidhar24)* |
 
 ---
 
